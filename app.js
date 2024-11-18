@@ -25,8 +25,8 @@ function maxMinSum(primeArray) {
   let max = Math.max(...primeArray);
   let min = Math.min(...primeArray);
   let sum = primeArray.reduce((a, b) => a + b, 0);
-  console.log(max);
-  console.log(min);
-  console.log(sum);
+  console.log("Max:" + max);
+  console.log("Min:" + min);
+  console.log("Sum:" + sum);
 }
 maxMinSum(primeArray);
